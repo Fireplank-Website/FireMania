@@ -6,6 +6,7 @@ A social app made with Next.js, Tailwind, NextAuth and Zustand that definitely d
 Clone the repository and do the following:
 - Create .env.local and add at least one Oauth provider such as Google or Github.
 - Paste their client id and secret in the name format of `[PROVIDER]_CLIENT_ID` and `[PROVIDER]_CLIENT_SECRET`
+- You also need to make and add your own firebase database and storage. Update the info in firebase.ts after creating them.
 - Start the server locally with `npm run dev`
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
